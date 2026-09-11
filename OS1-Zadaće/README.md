@@ -38,8 +38,9 @@ ne mozemo brisati direktorije ako nisu prazni
 5. mv backup.num backup/
 
 ## Zadatak 6
-1. mkdir /c/Users/pdani/Documents/vjezba6 && cd /c/Users/pdani/Documents/vjezba6
+1. mkdir p/home/danijela/Documents/vjezba6 && cd /home/danijela/Documents/vjezba6 && pwd
+
 2. touch os_script.md notes.txt && mkdir scripts
 3. mv os_script.md scripts/
 4. mv notes.txt todo.txt
-5. cd scripts && rm ../todo.txt
+5. cd scripts && rm ../todo.txt && ls
