@@ -24,11 +24,11 @@ ne mozemo brisati direktorije ako nisu prazni
 
 ## Zadatak 4
 
-1. mkdir vjezba4 && cd vjezba4 &&mkdir subfolder
-2. touch LAPTOP-4MOBEM3B
-3. mv LAPTOP-4MOBEM3B pdani
-4. mv pdani subfolder/
-5. rm /c/Users/pdani/vjezba4/subfolder/pdani
+1. mkdir vjezba4 && cd vjezba4 && mkdir subfolder
+2. touch $HOSTNAME
+3. mv $HOSTNAME $USER
+4. mv $USER subfolder/
+5. rm /home/$USER/vjezba4/subfolder/$USER
 
  ## Zadatak 5
 1. mkdir vjezba5 && cd vjezba5 && touch $RANDOM.num
