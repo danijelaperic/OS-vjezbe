@@ -19,8 +19,8 @@ ne mozemo brisati direktorije ako nisu prazni
 2.touch notes.txt todo.txt script.sh
 3.cp notes.txt backup/ && cp todo.txt backup/ && cp cript.sh backup/
 4.rm script.sh && ls
-5.cd backup && mkdir pdani                                         //user je pdani
-6.mv notes.txt pdani/ $$ mv todo.txt pdani/ && mv script.sh pdani/
+5.cd backup && mkdir $USER                                        
+6.mv notes.txt todo.txt script.sh $USER/
 
 ## Zadatak 4
 
