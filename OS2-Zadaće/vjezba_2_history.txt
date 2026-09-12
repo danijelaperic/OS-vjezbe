@@ -1,0 +1,168 @@
+    1  sudo dpkg-reconfigure keyboard/configuration
+    2  sudo dpkg-reconfigure keyboard-configuration
+    3  sudo reboot
+    4  mkdir -p vjezba_ls/faks/1_semestar vjezba_ls/faks/2_semestar
+    5  cd vjezba_ls
+    6  pwd
+    7  touch faks/1_semestar/diferencijalni_i_integralni_gospodarski_račun.txt faks/1_semestar/logika_i_diskretna_matematika.txt faks/1_semestar/multimedijalni_sustavi.txt faks/1_semestar/osnove_podatkovne_znanosti.txt faks/1_semestar/programiranje.txt
+    8  touch faks/2_semestar/baze_podataka_1.txt faks/2_semestar/geometrija_i_linearna_algebra.txt faks/2_semestar/matematička_analiza.txt faks/2_semestar/operacijski_sustavi.txt faks/2_semestar/programiranje_u_skriptnim_jezicima.txt
+    9  tree
+   10  sudo apt install tree
+   11  find .
+   12  ls -R1 --color faks
+   13  ls -R1 -1 --color ,/faks
+   14  ls -R1 -1 --color ./faks
+   15  ls -lt faks/1_semestar
+   16  touch faks/2_semestar/.tajni_kolegij.txt
+   17  ls -lA faks/2_semestar
+   18  cd faks/2_semestar
+   19  touch ../1_semestar/.tajni_koelgij,txt
+   20  touch /home/danijela/vjezba_ls/faks/1_semestar/.tajni_kolegij.txt
+   21  ping -c 3 archive.ubuntu.com
+   22  sudo apt update
+   23  grep -R "hr.archive.ubuntu.com" /etc/apt/sources.list/etc/apt/sources.list.d/ 2>/dev/null
+   24  grep -R "hr.archive.ubuntu.com" /etc/apt/sources.list.d/ 2>dev/null
+   25  grep -R "hr.archive.ubuntu.com" /etc/apt/sources.list.d/ 2>/dev/null
+   26  sudo sed -i 's|http://hr.archive.ubuntu.com/ubuntu/|http://archive.ubuntu.com/|g' /etc/apt/sources.list.d/ubuntu.sources
+   27  sudo apt update
+   28  sudo sed -i 's|URIs:http://archive.ubuntu.com|URIs:http://archive.ubuntu.com/ubuntu/|' /etc/apt/sources.list.d/ubuntu.sources
+   29  sudo apt update
+   30  sudo nano /etc/apt/sources.list.d/ubuntu.sources
+   31  sudo apt update
+   32  sudo apt install tree
+   33  tree -L 3 -a ~
+   34  xdg-open ~
+   35  cd ~find . -maxdepth 2 -type d -name "OS-vjezbe"
+   36  cd ~
+   37  find . -maxdepth 2 -type d -name "OS-vjezbe"
+   38  cd ~
+   39  git clone https://github.com/danijelaperic/OS-vjezbe.git
+   40  cd OS-vjezbe/OS2-Zadaće
+   41  history > vjezba_ls_koraci,txt
+   42  ls
+   43  git add vjezba_ls_koraci.txt
+   44  git add.
+   45  git status
+   46  git add .
+   47  git status
+   48  git commit -m " Dodani koraci ls i tree"
+   49  git config --global user.email"Danijela Perić"
+   50  git config --global user.name"Danijela Peric"
+   51  git config --global user.email "pdanijela333@gmail.com"
+   52  git config --global user,name "Danijela Peric"
+   53  git config --global user.name "Danijela Peric"
+   54  git config --global user.email "pdanijela333@gmail.com"
+   55  git config --global --list
+   56  git commit -m "Dodani koraci vjezbe ls i tree"
+   57  git push
+   58  git oush
+   59  git push
+   60  sudo apt install gh
+   61  gh auth login
+   62  https://github.com/login/device
+   63  git push
+   64  cd ~
+   65  mkdir -p vjezba_cp_mv_rm/Documents/faks vjezba_cp_mv_rm/Documents/sve_ostalo vjezba_cp_mv_rm/Games/action vjezba_cp_mv_rm/Games/puzzle vjezba_cp_mv_rm/Games/sandbox
+   66  tree vjezba_cp_mv_rm
+   67  cd vjezba_cp_mv_rm
+   68  touch Documents/sve_ostalo/salabahter_ikt.txt Documents/sve_ostalo/salabahter_os,txt Documents/sve_ostalo/salabahter_programiranje.txt
+   69  tree
+   70  echo "Salabahter iz IKT-a" >Documents/faks/salabahter_ikt.txt
+   71  cat Documents/faks/salabahter_ikt.txt
+   72  cp -nv Documents/sve_ostalo/* Documents/faks/
+   73  tree Documents
+   74  touch Games/minecraft.lnk Games/portal2.lnk Games/DOOM.lnk Games/the_witness.lnk Games/the_legend_of_zelda.lnk
+   75  tree Games
+   76  cp -v Games/minecraft.lnk Games/action/
+   77  mv -v Games/minecraft.lnk Games/puzzle
+   78  tree Games
+   79  cp -v Games/portal2.lnk Games/puzzle
+   80  mv -v Games/portal2.lnk Games/action
+   81  tree Games
+   82  mv -v Games/DOOM.lnk Games/action
+   83  tree Games
+   84  mv -v Games/the_witness.lnk Games/puzzle
+   85  tree Games
+   86  cp -v Games/the_legend_of_zelda.lnk Games/action
+   87  cp -v Games/the_legend_of_zelda.lnk Games/puzzle
+   88  mv -v Games/the_legend_of_zelda.lnk Games/sandbox
+   89  tree Games
+   90  rm -i Games/*/*.lnk
+   91  tree Games
+   92  cd ~/OS-vjezbe/OS2-Zadaće
+   93  nano zadatak2_vjezba_zastavica_cp_mv_rm.txt
+   94  ls
+   95  git add zadatak2_vjezba_zastavica_cp_mv_rm.txt
+   96  git commit -m "Dodana vjezba zastavica cp mv i rm"
+   97  git push
+   98  nano vjezba_2.txt
+   99  git add vjezba_2.txt
+  100  git commit -m "Rijesen zadatak 1"
+  101  git push
+  102  git pull --rebase
+  103  git push
+  104  mkdir -p vjezba_2/data
+  105  tree vjezba_2
+  106  mkdir -p vjezba_2/backuo
+  107  tree vjezba_2
+  108  touch vjezba_2/data/script.js vjezba_2/data/style.css vjezba_2/data/.env
+  109  tree vjezba_2
+  110  tree -a vjezba_2
+  111  echo 'console.log("Hello World!")' > vjezba_2/data/script.js
+  112  echo 'body { background-color:#f0f0fo; }' > vjezba_2/data/data/style.css
+  113  echo 'body{background-color:#f0f0f0; }' > vjezba_2/data/style.css
+  114  echo 'VJEZBE=OS' > vjezba_2/data/.env
+  115  cat vjezba_2/data/script.js
+  116  cat vjezba_2/data/style.css
+  117  cat vjezba_2/data/.env
+  118  tree vjezbe_2
+  119  tree vjezba_2
+  120  git add -A
+  121  git commit -m "Riješen zadatak 2"
+  122  git push
+  123  cp -av vjezba_2/data/. vjezba_2/backup/
+  124  cd vjezba_2/data
+  125  ls -lAS
+  126  ls -lAS ../backup
+  127  cd../..
+  128  git add -A
+  129  git commit -m "Riješen zadatak 3"
+  130  git push
+  131  cd ~/OS-vjezbe/OS2-Zadaće
+  132  rm -iv vjezba_2/data/script.js vjezba_2/data/style.css
+  133  tree -a vjezba_2/data
+  134  cp -anv vjezba_2/backup/. vjezba_2/data
+  135  ls -lAt1 vjezba_2/data
+  136  tree vjezba_2
+  137  tree -a vjezba_2/data
+  138  git add -A
+  139  git commit -m "Rijesen zadatak 4"
+  140  git push
+  141  cd  vjezba_2
+  142  ls -lAS
+  143  rmdir backup
+  144  ls -lAS
+  145  rmdir backuo
+  146  ls
+  147  ls -lSh
+  148  tree -a
+  149  cd ..
+  150  git add -A
+  151  git commit -m "Riješen zadatak 5"
+  152  git push
+  153  git commit --allow-empty -m "Riješen zadatak 5"
+  154  git push
+  155  nano vjezba_2.txt
+  156  cd ~/OS-vjezbe/OS-Zadaće
+  157  ls
+  158  cd ~OS-vjezbe/OS2-Zadaće
+  159  ls
+  160  cd ~/OS-vjezbe/OS2-Zadaće
+  161  git status
+  162  cat vjezba_2.txt.save
+  163  rm vjezba_2.txt
+  164  git restore vjezba_2.txt
+  165  ls
+  166  cat vjezba_2.txt.save
+  167  rm vjezba_2.txt.save
+  168  history > vjezba_2_history.txt
