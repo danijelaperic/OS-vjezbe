@@ -1,0 +1,4 @@
+Zadatak 1 
+git clone
+https://github.com/danijelaperic/OS-vjezbe.git
+cd OS-vjezbe/OS2-Zadaće
