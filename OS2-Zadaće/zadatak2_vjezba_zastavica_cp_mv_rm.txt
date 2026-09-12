@@ -1,0 +1,29 @@
+Zadatak 2: Vježba zastavica naredbi cp, mv i rm
+
+mkdir -p vjezba_cp_mv_rm/Documents/faks vjezba_cp_mv_rm/Documents/sve_ostalo vjezba_cp_mv_rm/Games/action vjezba_cp_mv_rm/Games/puzzle vjezba_cp_mv_rm/Games/sandbox
+
+cd vjezba_cp_mv_rm
+
+touch Documents/sve_ostalo/salabahter_ikt.txt Documents/sve_ostalo/salabahter_os.txt Documents/sve_ostalo/salabahter_programiranje.txt
+
+echo "Salabahter iz IKT-a" > Documents/faks/salabahter_ikt.txt
+
+cp -nv Documents/sve_ostalo/* Documents/faks/
+
+touch Games/minecraft.lnk Games/portal2.lnk Games/DOOM.lnk Games/the_witness.lnk Games/the_legend_of_zelda.lnk
+
+cp -v Games/minecraft.lnk Games/action/
+mv -v Games/minecraft.lnk Games/puzzle/
+
+cp -v Games/portal2.lnk Games/puzzle/
+mv -v Games/portal2.lnk Games/action/
+
+mv -v Games/DOOM.lnk Games/action/
+
+mv -v Games/the_witness.lnk Games/puzzle/
+
+cp -v Games/the_legend_of_zelda.lnk Games/action/
+cp -v Games/the_legend_of_zelda.lnk Games/puzzle/
+mv -v Games/the_legend_of_zelda.lnk Games/sandbox/
+
+rm -i Games/*/*.lnk
