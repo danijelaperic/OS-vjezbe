@@ -2,3 +2,39 @@ Zadatak 1
 git clone
 https://github.com/danijelaperic/OS-vjezbe.git
 cd OS-vjezbe/OS2-Zadaće
+
+
+Zadatak 2
+
+mkdir -p vjezba_2/data
+mkdir -p vjezba_2/backup
+touch vjezba_2/data/script.js vjezba_2/data/style.css vjezba_2/data/.env
+echo 'console.log("Hello World!")' > vjezba_2/data/script.js
+echo 'body{background-color:#f0f0f0; }' > vjezba_2/data/style.css
+echo 'VJEZBE=OS' > vjezba_2/data/.env
+cat vjezba_2/data/script.js
+cat vjezba_2/data/style.css
+cat vjezba_2/data/.env
+
+Zadatak 3
+
+cp -av vjezba_2/data/. vjezba_2/backup/
+cd vjezba_2/data
+ls -lAS ../backup
+cd ../..
+
+Zadatak 4
+
+rm -iv vjezba_2/data/script.js vjezba_2/data/style.css
+tree -a vjezba_2/data
+cp -anv vjezba_2/backup/. vjezba_2/data/
+ls -lAt1 vjezba_2/data
+tree -a vjezba_2/data
+
+Zadatak 5
+
+cd vjezba_2
+ls -lAS
+ls -lSh
+tree -a
+cd ..
