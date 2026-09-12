@@ -1,0 +1,41 @@
+    1  sudo dpkg-reconfigure keyboard/configuration
+    2  sudo dpkg-reconfigure keyboard-configuration
+    3  sudo reboot
+    4  mkdir -p vjezba_ls/faks/1_semestar vjezba_ls/faks/2_semestar
+    5  cd vjezba_ls
+    6  pwd
+    7  touch faks/1_semestar/diferencijalni_i_integralni_gospodarski_račun.txt faks/1_semestar/logika_i_diskretna_matematika.txt faks/1_semestar/multimedijalni_sustavi.txt faks/1_semestar/osnove_podatkovne_znanosti.txt faks/1_semestar/programiranje.txt
+    8  touch faks/2_semestar/baze_podataka_1.txt faks/2_semestar/geometrija_i_linearna_algebra.txt faks/2_semestar/matematička_analiza.txt faks/2_semestar/operacijski_sustavi.txt faks/2_semestar/programiranje_u_skriptnim_jezicima.txt
+    9  tree
+   10  sudo apt install tree
+   11  find .
+   12  ls -R1 --color faks
+   13  ls -R1 -1 --color ,/faks
+   14  ls -R1 -1 --color ./faks
+   15  ls -lt faks/1_semestar
+   16  touch faks/2_semestar/.tajni_kolegij.txt
+   17  ls -lA faks/2_semestar
+   18  cd faks/2_semestar
+   19  touch ../1_semestar/.tajni_koelgij,txt
+   20  touch /home/danijela/vjezba_ls/faks/1_semestar/.tajni_kolegij.txt
+   21  ping -c 3 archive.ubuntu.com
+   22  sudo apt update
+   23  grep -R "hr.archive.ubuntu.com" /etc/apt/sources.list/etc/apt/sources.list.d/ 2>/dev/null
+   24  grep -R "hr.archive.ubuntu.com" /etc/apt/sources.list.d/ 2>dev/null
+   25  grep -R "hr.archive.ubuntu.com" /etc/apt/sources.list.d/ 2>/dev/null
+   26  sudo sed -i 's|http://hr.archive.ubuntu.com/ubuntu/|http://archive.ubuntu.com/|g' /etc/apt/sources.list.d/ubuntu.sources
+   27  sudo apt update
+   28  sudo sed -i 's|URIs:http://archive.ubuntu.com|URIs:http://archive.ubuntu.com/ubuntu/|' /etc/apt/sources.list.d/ubuntu.sources
+   29  sudo apt update
+   30  sudo nano /etc/apt/sources.list.d/ubuntu.sources
+   31  sudo apt update
+   32  sudo apt install tree
+   33  tree -L 3 -a ~
+   34  xdg-open ~
+   35  cd ~find . -maxdepth 2 -type d -name "OS-vjezbe"
+   36  cd ~
+   37  find . -maxdepth 2 -type d -name "OS-vjezbe"
+   38  cd ~
+   39  git clone https://github.com/danijelaperic/OS-vjezbe.git
+   40  cd OS-vjezbe/OS2-Zadaće
+   41  history > vjezba_ls_koraci,txt
