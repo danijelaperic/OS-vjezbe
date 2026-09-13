@@ -1,0 +1,35 @@
+cd ~/OS-vjezbe
+mkdir OS3-Zadaće
+cd OS3-Zadaće
+pwd
+
+nano provjera_datoteke.sh
+#!bin/bash
+
+#1promjena
+if [ "$SH" -ne 1  ]; then
+#2promjena
+echo "Potrebno je prosljediti jedan argument"
+exit 1
+fi
+#3promjena
+ABS_FILE_PATH="$1"
+if [ -e "$ABS_FILE_PATH" ] && [ -f "$ABS_FILE_PATH" ]; then
+#4promjena
+echo " Datoteka na putanji $ABS_FILE_PATH postoji" 
+cat "$ABS_FILE_PATH"
+#5promjena
+else
+   echo " Datoteka ne postoji  ili nije regularna datoteka"
+fi
+
+
+chmod +x provjera_datoteke.sh
+./provjera_datoteke.sh
+-/provjera_datoteke.sh  /home/danijela/OS-vjezbe/OS3-Zadaće/provjera_datoteke.sh
+
+git add -A
+git commit -m "Riješen zadatak 1 "
+git push
+
+
