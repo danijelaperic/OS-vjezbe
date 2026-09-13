@@ -1,0 +1,10 @@
+mkdir zadatak_3
+cd zadatak_3
+touch os3.md os3.pdf
+mkdir screenshots
+touch screenshots/bash.png screenshots/nano.png screenshots/vim.png
+nano zadatak_3_1.sh
+chmod +x zadatak_3_1.sh
+./zadatak_3_1.sh
+tree
+
